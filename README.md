@@ -482,3 +482,15 @@ TIG Stack is a combination of really great tools for server monitoring that can 
 
 
 A working project can be downloaded from [github](https://github.com/brainhubeu/monitoring-rancher).
+
+## License
+
+React-permissible is copyright © 2014-2019 [Brainhub](https://brainhub.eu/) It is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
+
+## About
+
+It is funded by Brainhub and the names and logos for Brainhub are trademarks of Brainhub Sp. z o.o.. You can check other open-source projects supported/developed by our teammates [here](https://brainhub.eu/?utm_source=github). 
+
+[![Brainhub](https://brainhub.eu/brainhub.svg)](https://brainhub.eu/?utm_source=github)
+
+We love open-source JavaScript software! See our other projects or hire us to build your next web, desktop and mobile application with JavaScript.
