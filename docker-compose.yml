@@ -1,0 +1,40 @@
+version: '2'
+volumes:
+  influxdb:
+    driver: local
+  grafana:
+    driver: local
+services:
+  influxdb:
+    # Full tag list: https://hub.docker.com/r/library/influxdb/tags/
+    image: influxdb
+    volumes:
+      # Mount for influxdb data directory
+      - /home/docker/monitoring/influxdb/data:/var/lib/influxdb
+      # Mount for influxdb configuration
+      - /home/docker/monitoring/influxdb/config/:/etc/influxdb/
+    ports:
+      # The API for InfluxDB is served on port 8086
+      - "8086:8086"
+      - "8082:8082"
+      # UDP Port
+      - "8089:8089"
+  
+  grafana:
+    image: grafana/grafana #4.4.2
+    environment:
+      - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-worldmap-panel,grafana-piechart-panel
+      - GF_SMTP_ENABLED=true
+      - GF_SMTP_HOST=sSMTP_HOST_ADDRESS:587
+      - GF_SMTP_USER=SMTP_USERNAME
+      - GF_SMTP_PASSWORD=SMTP_SMTP_PASSWORD
+      - GF_SMTP_FROM_ADDRESS=SMTP_FROM_ADDRESS
+      - GF_SMTP_FROM_NAME=SMTP_FROM_NAME
+    links:
+      - influxdb
+    ports:
+      - "3000:3000"
+    volumes:
+      - /home/docker/monitoring/grafana/data:/var/lib/grafana
+    depends_on:
+      - influxdb
