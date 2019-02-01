@@ -2,6 +2,8 @@
 
 Server monitoring is as important as the content of your server. It allows you to have all the necessary information about its resources in a single view and informs you if they are going to run out before an unpleasant phone call from your boss.
 
+A full case-study about [**How to Set up Rancher Server Monitoring with TIG Stack?**](https://brainhub.eu/blog/rancher-server-monitoring/)
+
 <p align="center">
   <img src="img/server.png" title="Rancher server monitoring with TIG Stack" />
 </p>
