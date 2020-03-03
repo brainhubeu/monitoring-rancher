@@ -485,7 +485,7 @@ A working project can be downloaded from [github](https://github.com/brainhubeu/
 
 ## License
 
-React-permissible is copyright © 2014-2019 [Brainhub](https://brainhub.eu/) It is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
+monitoring-rancher is copyright © 2019-2020 [Brainhub](https://brainhub.eu/?utm_source=github) It is free software, and may be redistributed under the terms specified in the [license](LICENSE.md).
 
 ## About
 
