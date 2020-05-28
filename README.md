@@ -1,7 +1,24 @@
-# Rancher server monitoring with TIG Stack
+<br/>
+<h1 align="center">
+  monitoring-rancher
+</h1>
 
-[![license](https://img.shields.io/badge/License-MIT-green)](https://github.com/brainhubeu/monitoring-rancher/blob/master/LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<p align="center">
+  Rancher server monitoring with TIG Stack
+</p>
+
+<p align="center">
+  <strong>
+    <a href="https://brainhub.eu/blog/rancher-server-monitoring/">Blog post</a> | 
+    <a href="https://brainhub.eu/contact/">Hire us</a>
+  </strong>
+</p>
+
+<div align="center">
+
+  [![license](https://img.shields.io/badge/License-MIT-green)](https://github.com/brainhubeu/monitoring-rancher/blob/master/LICENSE)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+</div>
 
 Server monitoring is as important as the content of your server. It allows you to have all the necessary information about its resources in a single view and informs you if they are going to run out before an unpleasant phone call from your boss.
 
